@@ -1,0 +1,50 @@
+.proposal fieldset {
+   margin: 1em auto;
+   background-color: #E3E4FA;
+   width: 85%;
+}
+
+.proposal legend {
+   background-color: #CCCCFF;
+   color: #454545;
+   margin: 0 auto;
+   width: 90%;
+   padding: 0.5em;
+   text-align: center;
+   font-weight: bold;
+   font-size: 28px;
+}
+.proposal caption {
+	padding: 1.5em 1.5em; 
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.proposal .alert {
+	font-style: italic;
+	font-family : "Trebuchet MS";
+	font-size : 13px;
+}
+
+.proposal div#titlebox {    
+	margin-top: 1em; 
+	margin-left: 7em;
+}
+
+.proposal input[type=text] {
+	font-size: 18px;
+    width: 675px;   
+}
+
+.proposal label {
+	font-size : 18px;
+}
+
+.proposal option {
+	font-size: 1em;
+}
+
+.proposal input[type=submit] {
+	font-size : 18px;
+	margin : 1em 1em 0em 1em;
+}

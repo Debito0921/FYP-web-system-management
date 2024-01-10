@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proposal</title>
+        <link rel="stylesheet"  href ="css/menu.css"/>
+		<style>
+		body {
+		  background-image: url('background.jpg');
+		}
+		</style>
+		<link rel="stylesheet" href="css/proposal.css" />
+	    <script src="css/menu.js"></script>
+    </head>
+    <body>
+	<header>
+		<h1><img src="images/MMUnewLogo.png" alt="MMU" width = "270" height = "70"/></h1>
+		<hr>
+		<h2> Proposal </h2>
+		<hr>
+	</header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="homepage.php">Home</a>
+            <a href="proposal.html">Proposal</a>
+            <a href="planning.html">Planning</a>
+            <a href="project.html">Project Assignment</a>
+            <a href="meeting.html">Meeting</a>
+            <a href="tracking.html">Progress Tracking</a>
+            <a href="result.html">Result</a>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+		
+		<div id="proposal" class="proposal">
+			<fieldset>
+			<legend> Proposal </legend>
+			<div id="titlebox">
+					<p>
+					<p><caption>Title of Proposal : <caption></P>
+					<p><input type="text" id="proposalName" name="proposalName" placeholder="Title" size="100">
+					</p>
+					</p>
+					
+					<p>
+					<p><caption>Description : </caption><p>
+					<p><textarea id="desc" name="proposalDesc" rows="15" cols="90" placeholder="Type your description here"></textarea>
+					</p>
+					</p>
+					
+					<p>
+					<p><caption>Objective of Proposal : </caption><p>
+					<p><textarea id="objective" name="proposalObj" rows="15" cols="90" placeholder="Objectives / Outcomes "></textarea>
+					</p>
+					</p>
+					
+					<p>
+					<p><caption>Scope of Proposal :</caption></p>
+					<p><textarea id="scope" name="proposalScope" rows="7" cols="90" resize = "none" placeholder= "Scope"></textarea>
+					</p>
+					</p>
+					
+					<p>
+						<label>Number of student estimate to do : </label>
+						<select name="Number of student">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						</select>
+					</p>
+					
+					
+					<p class="alert"> * Bigger project assignment may require more student to complete. * </p>
+					
+					<p>
+						<input type="submit" value="Submit">
+					</p>
+					
+				</div>
+			</fieldset>
+    </body>
+</html>

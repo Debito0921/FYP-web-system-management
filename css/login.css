@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+    background: url("images/login_background.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+} 
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 150px;
+}
+
+fieldset {
+    background-color: lightgrey;
+    margin: 1em auto;
+    width: 30%;
+}
+
+div#credentials input{
+    display: inline;
+    text-align: center;
+    margin: 5px 0 5px 0;
+
+}
+
+div#credentials label{
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+}
+
+div#buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 10px 0;
+}
+
+div#buttons button {
+    margin-right: 50px;
+}
+
+.credential {
+    display: inline;
+}
+
+label {
+    /* font-family:  */
+    text-align: right;
+}

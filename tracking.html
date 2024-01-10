@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Progress tracking</title>
+        <link rel="stylesheet"  href ="css/menu.css"/>
+		<style>
+		body {
+		  background-image: url('background.jpg');
+		}
+		</style>
+		<link rel="stylesheet" href="css/tracking.css" />
+	    <script src="css/menu.js"></script>
+    </head>
+    <body>
+	<header>
+		<h1><img src="images/MMUnewLogo.png" alt="MMU" width = "270" height = "70"/></h1>
+		<hr>
+		<h2> Goal Setting / Progress Tracking </h2>
+		<hr>
+	</header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="homepage.php">Home</a>
+            <a href="proposal.html">Proposal</a>
+            <a href="planning.html">Planning</a>
+            <a href="project.html">Project Assignment</a>
+            <a href="meeting.html">Meeting</a>
+            <a href="tracking.html">Progress Tracking</a>
+            <a href="result.html">Result</a>
+        </div>
+    
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+		
+		<div id="goalSetting" class="goal">
+			<fieldset>
+			
+				<legend> Goal Setting </legend>
+				 <div id="titlebox">
+					<p>
+					<label for="goalName">Please enter your goal here :</label>
+					<input type="text" id="goalName" name="goalName" placeholder="Enter your goal here" size="200">
+					</p>
+					<p>
+						<label for="goalDate"> Enter the starting date : </label> 
+						<input type="date" name="date" />
+					</p>
+					<p>
+						<input type="submit" value="Submit">
+					</p>
+			</fieldset>
+	
+			<fieldset>
+				<legend> Progress Tracking </legend>
+				<div id ="trackingTable">
+				<table>
+					<thead>
+						<tbody>
+							<tr>
+								<th title ="Goal"> Goal </th>
+								<th title ="Date"> Date Created </th>
+								<th title ="Progress"> Progress </th>
+								<th title ="update"></th>
+								<th title ="marking"></th>
+							</tr>
+						</tbody>
+					</thead>
+					<thead>
+						<tbody>
+							<tr>
+								<td> Do Report </td>
+								<td> 5th March 2022 </td>
+								<td><progress max=100 value=40></progress></td>
+								<td><button> Update progress </button>
+								<td><button> Mark as done </button>
+							</tr>
+							<tr>
+								<td> Do Flowchart </td>
+								<td> 13th March 2022 </td>
+								<td><progress max=100 value=20></progress></td>
+								<td><button> Update progress </button>
+								<td><button> Mark as done </button>
+							</tr>
+						</tbody>
+					</thead>
+				</table>
+			</fieldset>
+		</div>
+    </body>
+</html>
